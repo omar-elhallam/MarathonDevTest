@@ -11,15 +11,15 @@ export default function Home() {
 			</Head>
 
 			<main>
-				<Header title="Welcome to my app!" />
+				<Header title="Omar El Hallam" />
 				<p className="description">
-					Get started by editing <code>pages/index.js</code>
+					Click bellow to play my first Game <code>pages/index.js</code>
 				</p>
 			</main>
 
 			{/* New Button Section */}
 			<div style={{ textAlign: 'center', marginTop: '20px' }}>
-				<a href="public\Game_1\TestGame.html" target="_blank" rel="noopener noreferrer">
+				<a href="/Game_1/TestGame.html" target="_blank" rel="noopener noreferrer">
 					<button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
 						Play My Game!
 					</button>
