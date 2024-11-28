@@ -19,7 +19,7 @@ export default function Home() {
 			title: 'Game 3',
 			description: 'Challenge yourself in Game 3!',
 			image: '/images/game3.png',
-			link: '/Game_3/index.html',
+			link: '/Game_3/turo-15.html',
 		},
 	];
 
