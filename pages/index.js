@@ -49,7 +49,7 @@ export default function Home() {
 						style={{
 							width: '100%',
 							height: '100%',
-							objectFit: 'cover', // Ensures the image covers the box without distortion
+							objectFit: 'contain', // Ensures the entire image fits within the box
 							borderRadius: '10px',
 							marginBottom: '20px'
 						}}
