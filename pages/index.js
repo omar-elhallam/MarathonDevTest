@@ -42,17 +42,30 @@ export default function Home() {
 
 			{/* Game Display Section */}
 			<div style={{ margin: '40px auto', maxWidth: '600px', textAlign: 'center', backgroundColor: 'rgba(255, 255, 255, 0.1)', borderRadius: '10px', padding: '20px' }}>
-				<img
-					src={games[currentGame].image}
-					alt={games[currentGame].title}
-					style={{ width: '75%', height: 'auto', borderRadius: '10px', marginBottom: '20px' }}
-				/>
+				<div style={{ width: '100%', height: '250px', overflow: 'hidden', position: 'relative' }}>
+					<img
+						src={games[currentGame].image}
+						alt={games[currentGame].title}
+						style={{
+							width: '100%',
+							height: '100%',
+							objectFit: 'cover', // Ensures the image covers the box without distortion
+							borderRadius: '10px',
+							marginBottom: '20px'
+						}}
+					/>
+				</div>
 				<h2 style={{ marginBottom: '10px' }}>{games[currentGame].title}</h2>
-				<p style={{ fontSize: '16px', lineHeight: '1.5', marginBottom: '20px' }}>{games[currentGame].description}</p>
+				<p style={{ fontSize: '16px', lineHeight: '1.5', marginBottom: '20px' }}>
+					{games[currentGame].description}
+				</p>
 				<a href={games[currentGame].link} target="_blank" rel="noopener noreferrer">
-					<button style={{ padding: '15px 30px', fontSize: '16px', cursor: 'pointer', backgroundColor: '#4caf50', color: 'white', border: 'none', borderRadius: '5px' }}>Play Now</button>
+					<button style={{ padding: '15px 30px', fontSize: '16px', cursor: 'pointer', backgroundColor: '#4caf50', color: 'white', border: 'none', borderRadius: '5px' }}>
+						Play Now
+					</button>
 				</a>
 			</div>
+
 
 
 			{/* Navigation Buttons */}
