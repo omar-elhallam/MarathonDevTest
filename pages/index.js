@@ -11,7 +11,7 @@ export default function Home() {
 			</Head>
 
 			<main>
-				<Header title="Omar El Hallam" />
+				<Header title="Atome trashtest" />
 				<p className="description">
 					Click bellow to play my first Game <code>pages/index.js</code>
 				</p>
