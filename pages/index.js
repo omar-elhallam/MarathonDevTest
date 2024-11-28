@@ -18,10 +18,25 @@ export default function Home() {
 			</main>
 
 			{/* New Button Section */}
-			<div style={{ textAlign: 'center', marginTop: '20px' }}>
-				<a href="/Game_1/TestGame.html" target="_blank" rel="noopener noreferrer">
-					<button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
-						Play My Game!
+			<div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '0px', padding: '0 20px' }}>
+				{/* Left Button */}
+				<a href="/Game_1/TestGame.html" target="_blank" rel="noopener noreferrer" style={{ textAlign: 'left' }}>
+					<button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', marginTop: '-20px' }}>
+						Play Game 1!
+					</button>
+				</a>
+
+				{/* Middle Button */}
+				<a href="/Game_2/index.html" target="_blank" rel="noopener noreferrer" style={{ textAlign: 'center' }}>
+					<button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', marginTop: '-20px' }}>
+						Play Game 2!
+					</button>
+				</a>
+
+				{/* Right Button */}
+				<a href="" target="_blank" rel="noopener noreferrer" style={{ textAlign: 'right' }}>
+					<button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', marginTop: '-20px' }}>
+						Play Game 3!
 					</button>
 				</a>
 			</div>
