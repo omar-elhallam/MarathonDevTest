@@ -22,21 +22,21 @@ export default function Home() {
 				{/* Left Button */}
 				<a href="/Game_1/TestGame.html" target="_blank" rel="noopener noreferrer" style={{ textAlign: 'left' }}>
 					<button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', marginTop: '-20px' }}>
-						Play Game 1!
+						Twitter play HERE!
 					</button>
 				</a>
 
 				{/* Middle Button */}
 				<a href="/Game_2/index.html" target="_blank" rel="noopener noreferrer" style={{ textAlign: 'center' }}>
 					<button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', marginTop: '-20px' }}>
-						Play Game 2!
+						pas interessant
 					</button>
 				</a>
 
 				{/* Right Button */}
 				<a href="" target="_blank" rel="noopener noreferrer" style={{ textAlign: 'right' }}>
 					<button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', marginTop: '-20px' }}>
-						Play Game 3!
+						pas de jeu ici
 					</button>
 				</a>
 			</div>
