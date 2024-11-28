@@ -6,19 +6,19 @@ export default function Home() {
 		{
 			title: 'Game 1',
 			description: 'Embark on an exciting journey in Game 1!',
-			image: '/images/game1.png', // Update with your actual image path
+			image: '/images/game1.png',
 			link: '/Game_1/Test_Marathon',
 		},
 		{
 			title: 'Game 2',
 			description: 'Dive into the adventure of Game 2!',
-			image: '/images/game2.png', // Update with your actual image path
+			image: '/images/game2.png',
 			link: '/Game_2/index.html',
 		},
 		{
 			title: 'Game 3',
 			description: 'Challenge yourself in Game 3!',
-			image: '/images/game3.png', // Update with your actual image path
+			image: '/images/game3.png',
 			link: '/Game_3/index.html',
 		},
 	];
@@ -45,7 +45,7 @@ export default function Home() {
 				<img
 					src={games[currentGame].image}
 					alt={games[currentGame].title}
-					style={{ width: '100%', borderRadius: '10px', marginBottom: '20px' }}
+					style={{ width: '75%', height: 'auto', borderRadius: '10px', marginBottom: '20px' }}
 				/>
 				<h2 style={{ marginBottom: '10px' }}>{games[currentGame].title}</h2>
 				<p style={{ fontSize: '16px', lineHeight: '1.5', marginBottom: '20px' }}>{games[currentGame].description}</p>
@@ -53,6 +53,7 @@ export default function Home() {
 					<button style={{ padding: '15px 30px', fontSize: '16px', cursor: 'pointer', backgroundColor: '#4caf50', color: 'white', border: 'none', borderRadius: '5px' }}>Play Now</button>
 				</a>
 			</div>
+
 
 			{/* Navigation Buttons */}
 			<div style={{ marginTop: '20px', display: 'flex', justifyContent: 'center', gap: '20px' }}>
