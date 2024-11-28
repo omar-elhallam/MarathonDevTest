@@ -20,7 +20,7 @@ export default function Home() {
 			{/* New Button Section */}
 			<div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '0px', padding: '0 20px' }}>
 				{/* Left Button */}
-				<a href="/Game_1/TestGame.html" target="_blank" rel="noopener noreferrer" style={{ textAlign: 'left' }}>
+				<a href="/Game_1/Test_Marathon" target="_blank" rel="noopener noreferrer" style={{ textAlign: 'left' }}>
 					<button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer', marginTop: '-20px' }}>
 						Twitter play HERE!
 					</button>
