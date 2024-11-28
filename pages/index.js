@@ -4,20 +4,20 @@ import { useState } from 'react';
 export default function Home() {
 	const games = [
 		{
-			title: 'Game 1',
-			description: 'Embark on an exciting journey in Game 1!',
+			title: 'Fight Bonkus Garkus',
+			description: 'Fight Bonkus Garkus in a ferocious duel !',
 			image: '/images/game1.png',
 			link: '/Game_1/Test_Marathon',
 		},
 		{
-			title: 'Game 2',
-			description: 'Dive into the adventure of Game 2!',
+			title: 'The Last Hexagon',
+			description: 'Eliminate the triangles to stay alive as long as possible !',
 			image: '/images/game2.png',
 			link: '/Game_2/index.html',
 		},
 		{
-			title: 'Game 3',
-			description: 'Challenge yourself in Game 3!',
+			title: 'Tower Game',
+			description: 'Try to make the highest tower possible !',
 			image: '/images/game3.png',
 			link: '/Game_3/turo-15.html',
 		},
@@ -37,7 +37,7 @@ export default function Home() {
 
 			{/* Description */}
 			<p style={{ fontSize: '18px', marginBottom: '30px' }}>
-				Welcome to Atome's game page! Choose a game below and enjoy the experience.
+				Bienvenue sur ma platforme de jeux, Choisissez un jeu parmis les trois si dessous.
 			</p>
 
 			{/* Game Display Section */}
