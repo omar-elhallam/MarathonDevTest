@@ -19,9 +19,9 @@ export default function Home() {
 
 			{/* New Button Section */}
 			<div style={{ textAlign: 'center', marginTop: '20px' }}>
-				<a href="" target="_blank" rel="noopener noreferrer">
+				<a href="/game_1/index.html" target="_blank" rel="noopener noreferrer">
 					<button style={{ padding: '10px 20px', fontSize: '16px', cursor: 'pointer' }}>
-						Click Me!
+						Play My Game!
 					</button>
 				</a>
 			</div>
