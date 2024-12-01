@@ -10,6 +10,12 @@ export default function Home() {
 			link: '/Game_1/Test_Marathon',
 		},
 		{
+			title: 'Bonkus Garkus V2 (in developpement)',
+			description: 'Fight Bonkus Garkus in a ferocious duel !',
+			image: '/images/game1.png',
+			link: '/Game_1_2/Test_Marathon',
+		},
+		{
 			title: 'The Last Hexagon',
 			description: 'Eliminate the triangles to stay alive as long as possible !',
 			image: '/images/game2.png',
