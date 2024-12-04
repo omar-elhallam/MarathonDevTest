@@ -55,7 +55,7 @@ export default function Home() {
 						style={{
 							width: '100%',
 							height: '100%',
-							objectFit: 'contain', // Ensures the entire image fits within the box
+							objectFit: 'contain',
 							borderRadius: '10px',
 							marginBottom: '20px'
 						}}

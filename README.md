@@ -1,3 +1,13 @@
+# Omar Abdelmoti El Hallam
+
+This is a web server hosted with Netlify by Omar Abdelmoti El Hallam
+I haven't used ANY template to make this web page.
+Three games are available to play on my page :
+    - first (Fight bonkus garkus) one has two versions and were made by me using GODOT, only the sound and visual assets were taken from internet and were open-source, anything else were code by me and only me.
+    - two other games (The last Hexagon and Tower game) are open-source games made with GODOT that I've taken from Github.
+
+
+
 # Next + Netlify Starter
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/next-dev-starter/deploys)
